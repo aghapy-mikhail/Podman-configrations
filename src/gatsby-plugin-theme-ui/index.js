@@ -76,7 +76,7 @@ export default {
     14, 16, 18, 20, 24, 32, 48, 64, 72, 96
   ],
   sizes: {
-    container: 768,
+    container: 1024,
     wide: 1280,
   },
   text: {
