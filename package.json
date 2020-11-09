@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "hacstac_blogs",
+  "name": "notebook",
   "version": "4.0.0-0",
   "description": "The Notebook of Akash Rajvanshi",
   "scripts": {
@@ -22,6 +22,7 @@
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-mdx": "^1.1.4",
     "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sitemap": "^2.5.1",
     "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-plugin-twitter": "^2.2.1",
     "jxnblk": "^1.4.1",

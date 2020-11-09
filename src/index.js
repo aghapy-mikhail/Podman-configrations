@@ -10,7 +10,7 @@ const Page = props => {
   )
   const description = get(props.data, 'post.excerpt',
     get(props, 'pageContext.frontmatter.excerpt')
-  ) || 'The writing of Brent Jackson'
+  ) || 'A Daily Journal For My IT Journey!!'
 
   if (postTitle) {
     title = `${postTitle} | ${title}`
@@ -25,24 +25,24 @@ const Page = props => {
         <link
           rel='icon'
           type='image/png'
-          href='https://jxnblk.com/favicon.png'
+          href='https://s3.ap-south-1.amazonaws.com/akash.r/Github_Profile/avatar.png'
         />
         <link
           rel='apple-touch-icon-precomposed'
-          href='https://jxnblk.com/avatar.png'
+          href='https://s3.ap-south-1.amazonaws.com/akash.r/Github_Profile/avatar.png'
         />
         <link
           rel='canonical'
           href={props.location.href}
         />
-        <meta name='twitter:site' content='@jxnblk' />
-        <meta name='og:image' content='https://jxnblk.com/avatar.png' />
+        <meta name='twitter:site' content='@Akash_Rajvanshi' />
+        <meta name='og:image' content='https://s3.ap-south-1.amazonaws.com/akash.r/Github_Profile/avatar.png' />
         <title>{title}</title>
         <meta name='og:title' content={title} />
         <meta name='og:description' content={description} />
         <meta name='twitter:title' content={title} />
         <meta name='twitter:description' content={description} />
-        <meta name='twitter:creator' content='Brent Jackson' />
+        <meta name='twitter:creator' content='Akash Rajvanshi' />
         <meta name='twitter:card' content='summary' />
       </Helmet>
       <Layout {...props}>

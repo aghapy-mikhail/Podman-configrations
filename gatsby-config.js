@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Notebook',
     description: 'A Daily Journal For My IT Journey!!',
-    siteUrl: 'http://inputhash.me'
+    siteUrl: 'http://blog.inputzero.me'
   },
   plugins: [
     {
@@ -14,6 +14,7 @@ module.exports = {
       }
     },
     'gatsby-plugin-theme-ui',
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-catch-links',
     {
