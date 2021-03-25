@@ -2,16 +2,14 @@ module.exports = {
   siteMetadata: {
     title: 'Notebook',
     description: 'A Daily Journal For My IT Journey!!',
-    siteUrl: 'http://blog.inputzero.me'
+    siteUrl: 'http://blog.inputzero.me',
   },
   plugins: [
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
-        extensions: [
-          '.mdx', '.md',
-        ],
-      }
+        extensions: ['.mdx', '.md'],
+      },
     },
     'gatsby-plugin-theme-ui',
     'gatsby-plugin-sitemap',
@@ -20,17 +18,15 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-fonts',
       options: {
-        fonts: [
-          'Roboto Mono'
-        ]
-      }
+        fonts: ['Roboto Mono'],
+      },
     },
     'gatsby-plugin-twitter',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'G-JKSGGYVPD7'
-      }
-    }
-  ]
-}
+        trackingId: 'G-3358SV064S',
+      },
+    },
+  ],
+};
