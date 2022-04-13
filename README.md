@@ -1,11 +1,3 @@
----
-title: How To Setup RootLess Podman Containers!!
-date: 2020-11-30
-tags:
-  - Docker
-  - Linux
-  - DevOps
----
 
 ## What is Podman??
 
