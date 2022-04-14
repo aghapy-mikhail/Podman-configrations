@@ -69,8 +69,6 @@ cpuacct@  devices/      memory/   net_prio@          rdma/
 $ cat /etc/default/grub 
 $ sudo readlink -e /etc/grub2.cfg 
 $ sudo grub2-mkconfig --output /boot/grub2/grub.cfg
-
-$ sudo grub-mkconfig -o /boot/grub/grub.cfg
 $ reboot
 ```
 
