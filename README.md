@@ -105,7 +105,7 @@ Add Registries
 ================================================================================================
 $ sudo vim /etc/containers/registries.conf
 [registries.search]
-registries = ['docker.io', 'registry.fedoraproject.org', 'quay.io', 'registry.access.redhat.com', 'registry.centos.org']
+registries = ['docker.io', 'registry.fedoraproject.org', 'quay.io', 'registry.access.redhat.com', 'registry.centos.org','registry.redhat.io']
 ```
 
 ---
