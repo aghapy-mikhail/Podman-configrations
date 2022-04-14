@@ -81,10 +81,10 @@ User Specification
 # The following below commands enables the podman user and group to run Podman containers (or other types of containers in that case).
 # It allocates the UIDs and GIDs from 100000to 165535 to the podman user and group respectively.
 $ sudo touch /etc/{subgid,subuid}
-$ sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 {USER}
-$ grep {USER} /etc/subuid /etc/subgid
-/etc/subuid:{USER}:100000:65536
-/etc/subgid:{USER}:100000:65536
+$ sudo usermod --add-subuids 100000-165535 --add-subgids 100000-165535 $USER
+$ grep $USER /etc/subuid /etc/subgid
+/etc/subuid:$USER:100000:65536
+/etc/subgid:$USER:100000:65536
 ```
 
 ---
